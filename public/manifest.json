@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name" : "Notes",
+    "version": "1.0",
+    "description": "A simple note-taking extension",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

@@ -1,0 +1,35 @@
+/* Make the app fill the popup nicely */
+#root {
+  padding: 0.75rem;
+  text-align: center;
+}
+
+/* Sticky note slight tilt animations (already used by notes) */
+.rotate--1 { transform: rotate(-2deg); }
+.rotate-0 { transform: rotate(0deg); }
+.rotate-1 { transform: rotate(2deg); }
+
+/* Give background a soft cork-board look */
+body {
+  background: #fff8e7; /* Warm soft board tone */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Smooth scrollbar for notes container */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6b98d;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f5e8c7;
+}
+
+/* Remove old Vite demo styles (logo, cards, etc.) */
+.logo, .card, .read-the-docs {
+  display: none !important;
+}
